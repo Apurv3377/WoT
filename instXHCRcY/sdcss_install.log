@@ -1,0 +1,51 @@
+02/15/23 08:24:16: ISUPGRADE : false
+02/15/23 08:24:16: clearing variable LD_LIBRARY_PATH...
+02/15/23 08:24:16: Running ./installagent.sh (PWD /home/apurv/SymantecInstall/GITDemo/instXHCRcY; version 2.2.6.33)
+02/15/23 08:24:16: Running key import for Symantec Repo
+02/15/23 08:24:16: 
+Configuring Repo (linux-repo.us.securitycloud.symantec.com) ..
+02/15/23 08:24:16: Refreshing repo cache and testing connection..
+
+02/15/23 08:24:21: Loaded plugins: product-id, search-disabled-repos, subscription-manager
+Metadata Cache Created
+02/15/23 08:24:21: Repo communication status = 0
+02/15/23 08:24:21: Downloading packages: sdcss-caf
+sdcss
+sdcss-kmod
+sdcss-scripts ...
+Loaded plugins: product-id, search-disabled-repos, subscription-manager
+Resolving Dependencies
+--> Running transaction check
+---> Package sdcss.x86_64 0:6.9.2-2167.el7 will be installed
+---> Package sdcss-caf.x86_64 0:2.0.4-151 will be installed
+---> Package sdcss-kmod.x86_64 0:10.0.4-1616.el7 will be installed
+---> Package sdcss-scripts.noarch 0:2.2.6-37.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package              Arch          Version                  Repository    Size
+================================================================================
+Installing:
+ sdcss                x86_64        6.9.2-2167.el7           SDCSS         26 M
+ sdcss-caf            x86_64        2.0.4-151                SDCSS         11 M
+ sdcss-kmod           x86_64        10.0.4-1616.el7          SDCSS        6.7 M
+ sdcss-scripts        noarch        2.2.6-37.el7             SDCSS         33 k
+
+Transaction Summary
+================================================================================
+Install  4 Packages
+
+Total download size: 43 M
+Installed size: 135 M
+Background downloading packages, then exiting:
+--------------------------------------------------------------------------------
+Total                                              3.3 MB/s |  43 MB  00:13     
+exiting because "Download Only" specified
+02/15/23 08:24:39: Succsessfully downloaded packages:
+sdcss-6.9.2.2167.el7.x86_64.rpm
+sdcss-caf-2.0.4.151.rhel7.x86_64.rpm
+sdcss-kmod-10.0.4.1616.el7.x86_64.rpm
+sdcss-scripts-2.2.6.37.el7.noarch.rpm
+
